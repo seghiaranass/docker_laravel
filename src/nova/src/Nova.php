@@ -1416,8 +1416,8 @@ class Nova
     public static function defaultFooter(Request $request)
     {
         return Blade::render('
-            <p class="text-center">Powered by <a class="link-default" href="https://nova.laravel.com">Laravel Nova</a> · v{!! $version !!}</p>
-            <p class="text-center">&copy; {!! $year !!} Laravel LLC &middot; by Taylor Otwell and David Hemphill.</p>
+            <p class="text-center">Powered by <a class="link-default" href="https://flexconfigs.com">Flex Configs</a> · v1.0</p>
+            <p class="text-center">&copy; {!! $year !!} &middot; <a class="link-default" href="mailto:seghiar.anass@gmail.com">Anass Seghiar</a>.</p>
         ', [
             'version' => static::version(),
             'year' => date('Y'),
